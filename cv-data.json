@@ -1,0 +1,106 @@
+{
+  "basicInfo": {
+    "name": "John Doe",
+    "title": "Senior Software Engineer",
+    "email": "john.doe@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA",
+    "website": "johndoe.dev",
+    "linkedin": "linkedin.com/in/johndoe",
+    "github": "github.com/johndoe"
+  },
+  "profile": "Passionate software engineer with 8+ years of experience building scalable web applications. Expert in JavaScript ecosystems with a focus on React, Node.js, and cloud technologies. Known for delivering high-quality solutions while mentoring junior developers and contributing to open source projects.",
+  "skills": {
+    "professional": [
+      "JavaScript/TypeScript",
+      "React",
+      "Node.js",
+      "AWS",
+      "Docker",
+      "Git"
+    ],
+    "competent": [
+      "Python",
+      "PostgreSQL",
+      "MongoDB",
+      "Redux",
+      "GraphQL",
+      "CI/CD"
+    ],
+    "plus": [
+      "Go",
+      "Terraform",
+      "Kubernetes",
+      "Rust",
+      "Svelte",
+      "Vue.js"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Senior Frontend Engineer",
+      "company": "TechCorp",
+      "location": "San Francisco, CA",
+      "startDate": "Jan 2022",
+      "endDate": "Present",
+      "description": "Led the frontend architecture for a SaaS product serving 100k+ users. Implemented design system and improved performance by 40%.",
+      "achievements": [
+        "Reduced bundle size by 35% through code splitting and lazy loading",
+        "Mentored 3 junior developers",
+        "Implemented testing framework reducing bugs by 60%"
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "StartupXYZ",
+      "location": "San Jose, CA",
+      "startDate": "Jun 2020",
+      "endDate": "Dec 2021",
+      "description": "Developed and maintained full-stack applications using React, Node.js, and MongoDB. Worked in an agile environment with cross-functional teams.",
+      "achievements": [
+        "Built 5 major features that increased user engagement by 25%",
+        "Set up CI/CD pipeline reducing deployment time by 70%",
+        "Collaborated with UX team to improve user experience"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Enterprise Solutions",
+      "location": "San Francisco, CA",
+      "startDate": "Mar 2018",
+      "endDate": "May 2020",
+      "description": "Developed enterprise applications using Java and Angular. Worked on legacy system modernization projects.",
+      "achievements": [
+        "Modernized legacy system serving 10k+ employees",
+        "Improved system performance by 50%",
+        "Participated in code reviews and documentation"
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Web Agency",
+      "location": "Oakland, CA",
+      "startDate": "Aug 2017",
+      "endDate": "Feb 2018",
+      "description": "Created responsive websites and web applications for various clients. Worked primarily with HTML, CSS, and vanilla JavaScript.",
+      "achievements": [
+        "Delivered 10+ client projects on time",
+        "Optimized websites for performance and SEO",
+        "Implemented responsive designs"
+      ]
+    },
+    {
+      "title": "Junior Developer",
+      "company": "Tech Startup",
+      "location": "Berkeley, CA",
+      "startDate": "Jan 2016",
+      "endDate": "Jul 2017",
+      "description": "Developed web applications using React and Node.js. Started as an intern and was promoted to full-time.",
+      "achievements": [
+        "Quickly learned new technologies",
+        "Contributed to open-source projects",
+        "Assisted in bug fixes and maintenance"
+      ]
+    }
+  ]
+}
