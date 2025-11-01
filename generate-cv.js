@@ -144,11 +144,12 @@ Examples:
         const jsonData = fs.readFileSync(jsonDataPath, 'utf8');
         const data = JSON.parse(jsonData);
         
-        // Flatten the data to make skills arrays available at root level
-        // This is needed because templates reference {{#professional}}, {{#competent}}, {{#plus}} directly
+        // Flatten the data to make skills arrays and basic info available at root level
+        // This is needed because templates reference {{#professional}}, {{#competent}}, {{#plus}} and basic info directly
         const flattenedData = {
             ...data,
             ...data.skills,  // This adds professional, competent, plus to the root level
+            ...data.basicInfo,  // This adds name, title, email, etc. to the root level
         };
         
         // Read the template
